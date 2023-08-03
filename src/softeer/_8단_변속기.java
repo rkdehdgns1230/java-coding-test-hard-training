@@ -1,3 +1,5 @@
+package softeer;
+
 import java.util.*;
 
 public class _8단_변속기 {

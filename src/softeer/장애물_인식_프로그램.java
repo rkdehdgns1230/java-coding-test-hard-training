@@ -1,3 +1,5 @@
+package softeer;
+
 import java.util.*;
 
 public class 장애물_인식_프로그램 {

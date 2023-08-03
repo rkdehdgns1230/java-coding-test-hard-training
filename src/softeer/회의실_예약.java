@@ -1,3 +1,5 @@
+package softeer;
+
 import java.util.*;
 
 public class 회의실_예약 {

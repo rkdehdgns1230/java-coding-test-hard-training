@@ -1,3 +1,5 @@
+package softeer;
+
 import java.util.Scanner;
 
 public class 지도_자동_구축 {
