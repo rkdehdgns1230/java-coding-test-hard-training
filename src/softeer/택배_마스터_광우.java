@@ -3,7 +3,7 @@ package softeer;
 import java.io.*;
 import java.util.*;
 
-public class ÅÃ¹è_¸¶½ºÅÍ_±¤¿ì {
+public class íƒë°°_ë§ˆìŠ¤í„°_ê´‘ìš° {
     private static final int MAX = 11;
     private static final int MAX_CARRIAGE = 50;
     private static final int MAX_WORK_CNT = 50;
@@ -20,9 +20,9 @@ public class ÅÃ¹è_¸¶½ºÅÍ_±¤¿ì {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        n = Integer.parseInt(st.nextToken()); // ·¹ÀÏÀÇ ¼ö
-        m = Integer.parseInt(st.nextToken()); // ¹Ù±¸´Ï ¹«°Ô ÇÑ°è
-        k = Integer.parseInt(st.nextToken()); // ÀÛ¾÷ÀÇ ¼ö
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+        k = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
 
@@ -37,7 +37,6 @@ public class ÅÃ¹è_¸¶½ºÅÍ_±¤¿ì {
 
     private static void dfs(boolean[] visited, int cnt) {
         if(cnt == n){
-            // ¿©±â¼­ ·ÎÁ÷¿¡ µû¶ó ÃÖÀûÀÇ ¼ø¼­ÀÎÁö ¿©ºÎ¸¦ °ËÁõÇØ¾ß ÇÑ´Ù.
             int totalCarriage = 0;
             int idx = 0;
 
