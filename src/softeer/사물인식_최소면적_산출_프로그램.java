@@ -3,7 +3,7 @@ package softeer;
 import java.util.*;
 import java.io.*;
 
-public class »ç¹°ÀÎ½Ä_ÃÖ¼Ò¸éÀû_»êÃâ_ÇÁ·Î±×·¥ {
+public class ì‚¬ë¬¼ì¸ì‹_ìµœì†Œë©´ì _ì‚°ì¶œ_í”„ë¡œê·¸ë¨ {
     private static int K, N;
     private static List<List<Point>> sites;
     private static int minSize = Integer.MAX_VALUE;
